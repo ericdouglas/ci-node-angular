@@ -4,7 +4,8 @@ html
 
   body(ng-app="jobApp")
     .container
-      h1 Find a job today!
+      .jumbotron
+        h1 Find a job today!
       div(ng-controller="jobController as vm")
         .list-group
           a.list-group-item(href="#" ng-repeat="job in vm.jobs")
