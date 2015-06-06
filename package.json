@@ -1,0 +1,20 @@
+{
+  "name": "job-finder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Eric Douglas <eric.douglas.mail@gmail.com> (https://github.com/ericdouglas)",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^2.9.27",
+    "express": "^4.12.4",
+    "jade": "^1.10.0",
+    "mongoose": "^4.0.4"
+  },
+  "devDependencies": {
+    "chai": "^3.0.0"
+  }
+}
